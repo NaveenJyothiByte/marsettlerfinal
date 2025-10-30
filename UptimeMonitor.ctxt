@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=UptimeMonitor
+comment0.text=\n\ Tracks\ system\ reliability\ metrics\n\ Simulates\ uptime\ calculations\ for\ colony\ operations\ reporting\n
+comment1.params=totalMs\ injectedDowntimeMs
+comment1.target=void\ simulate(long,\ long)
+comment1.text=\n\ Simulates\ system\ uptime\ over\ a\ period\ with\ injected\ downtime\n\ @param\ totalMs\ Total\ observation\ period\ in\ milliseconds\n\ @param\ injectedDowntimeMs\ Simulated\ downtime\ within\ that\ period\n
+comment2.params=
+comment2.target=double\ uptimePercent()
+comment2.text=\n\ Calculates\ uptime\ percentage\ -\ critical\ for\ colony\ reliability\ reporting\n\ @return\ Uptime\ percentage\ (99.9+%\ target\ for\ life\ support\ systems)\n
+numComments=3

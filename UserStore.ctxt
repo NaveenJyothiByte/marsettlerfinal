@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=UserStore
+comment0.text=\n\ In-memory\ user\ database\ with\ normalization\n\ Production\ would\ use\ proper\ database\ with\ hashed\ passwords\n
+comment1.params=s
+comment1.target=java.lang.String\ normalize(java.lang.String)
+comment1.text=\n\ Normalizes\ usernames\ for\ case-insensitive\ lookups\n\ Trims\ and\ converts\ to\ lowercase\ for\ consistency\n
+comment2.params=
+comment2.target=java.util.Map\ backingMap()
+comment3.params=usernameRaw
+comment3.target=boolean\ exists(java.lang.String)
+comment4.params=usernameRaw
+comment4.target=User\ get(java.lang.String)
+comment5.params=usernameRaw\ password\ status\ role
+comment5.target=User\ addNew(java.lang.String,\ java.lang.String,\ AccountStatus,\ Role)
+comment5.text=\n\ Creates\ new\ user\ account\ with\ sequential\ ID\ generation\n\ Auto-assigns\ user\ ID\ in\ U2000+\ range\n
+comment6.params=
+comment6.target=void\ seedSamples()
+comment6.text=\ \n\ Seed\ three\ ACTIVE\ users\ so\ they\ can\ log\ in\ immediately\ \n\ Demonstrates\ different\ roles\ and\ test\ scenarios\n
+numComments=7

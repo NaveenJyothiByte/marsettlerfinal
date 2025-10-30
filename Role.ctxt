@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Role
+comment0.text=\n\ User\ roles\ in\ the\ Mars\ Colony\ system.\n\ Defines\ three\ distinct\ roles\ with\ different\ access\ levels.\n
+comment1.params=r
+comment1.target=java.lang.String\ pretty(Role)
+comment1.text=\n\ Converts\ enum\ to\ human-readable\ format\ for\ UI\ display\n
+numComments=2

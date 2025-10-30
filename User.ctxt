@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=User
+comment0.text=\n\ Core\ user\ entity\ representing\ a\ Mars\ Colony\ member\n\ Contains\ authentication,\ role,\ and\ session\ tracking\ data\n
+comment1.params=userId\ username\ password\ status\ role
+comment1.target=User(java.lang.String,\ java.lang.String,\ java.lang.String,\ AccountStatus,\ Role)
+numComments=2

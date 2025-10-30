@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.target=AccountStatus
+comment0.text=\n\ Tracks\ account\ lifecycle\ states\n\ ACTIVE\:\ Normal\ operational\ state\n\ EXPIRED\:\ Password\ or\ subscription\ expired\n\ LOCKED\:\ Temporarily\ disabled\ due\ to\ security\ concerns\n
+numComments=1

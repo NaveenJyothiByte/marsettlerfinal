@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=BackupService
+comment0.text=\n\ Simple\ backup/restore\ service\ for\ schedule\ data\n\ In\ production\ would\ serialize\ to\ persistent\ storage\n
+comment1.params=source
+comment1.target=void\ backup(java.util.Map)
+comment1.text=\n\ Creates\ deep\ copy\ backup\ of\ schedule\ data\n\ Not\ thread-safe\ -\ callers\ should\ synchronize\ if\ needed\n
+comment2.params=
+comment2.target=java.util.Map\ restore()
+comment2.text=\n\ Restores\ from\ last\ backup\ -\ returns\ defensive\ copy\n
+numComments=3

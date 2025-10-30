@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=AuthService
+comment0.text=\n\ In-memory\ authentication\ +\ sessions\ +\ simple\ audit.\n\ Handles\ login,\ session\ management,\ and\ security\ events.\n\ Production\ would\ use\ proper\ password\ hashing\ and\ external\ session\ store.\n
+comment1.params=users\ maxAttempts\ sessionTimeout
+comment1.target=AuthService(java.util.Map,\ int,\ java.time.Duration)
+comment2.params=usernameKey\ password
+comment2.target=java.util.Optional\ login(java.lang.String,\ java.lang.String)
+comment2.text=\ \n\ Returns\ user\ on\ success,\ else\ Optional.empty;\ sets\ lastError\ on\ failure.\n\ Implements\ comprehensive\ security\ checks\ in\ order\ of\ increasing\ cost.\n
+comment3.params=u
+comment3.target=void\ touch(User)
+comment3.text=Updates\ last\ activity\ timestamp\ to\ keep\ session\ alive
+comment4.params=u\ now
+comment4.target=boolean\ isSessionExpired(User,\ java.time.Instant)
+comment4.text=Checks\ if\ user\ session\ has\ expired\ due\ to\ inactivity
+comment5.params=u
+comment5.target=void\ logout(User)
+comment6.params=
+comment6.target=java.util.List\ getAudit()
+comment7.params=
+comment7.target=java.lang.String\ getLastError()
+comment8.params=msg
+comment8.target=void\ setError(java.lang.String)
+comment9.params=
+comment9.target=void\ clearLastError()
+numComments=10

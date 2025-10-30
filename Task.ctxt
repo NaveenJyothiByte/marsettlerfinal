@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Task
+comment0.text=\n\ Represents\ a\ scheduled\ task\ in\ the\ Mars\ Colony\n\ Tasks\ are\ time-bound\ and\ have\ priority\ levels\ for\ sorting\n
+comment1.params=id\ title\ priority\ date\ time
+comment1.target=Task(java.lang.String,\ java.lang.String,\ int,\ java.time.LocalDate,\ java.time.LocalTime)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+numComments=3

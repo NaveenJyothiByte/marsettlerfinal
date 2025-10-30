@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=ScheduleService
+comment0.text=\n\ In-memory\ schedule\ per\ user,\ sorted\ reads,\ last\ update\ timestamp.\n\ Production\ would\ use\ database\ with\ proper\ transactions.\n
+comment1.params=username
+comment1.target=void\ seedResidentTasks(java.lang.String)
+comment1.text=\n\ Pre-populates\ sample\ tasks\ for\ new\ colony\ residents\n\ Demonstrates\ realistic\ Mars\ colony\ daily\ operations\n
+comment2.params=username\ date
+comment2.target=java.util.List\ getTasks(java.lang.String,\ java.time.LocalDate)
+comment2.text=\n\ Retrieves\ tasks\ for\ a\ user\ on\ specific\ date,\ sorted\ by\ time\ then\ priority\n\ Returns\ defensive\ copy\ to\ prevent\ external\ modification\n
+comment3.params=username\ task
+comment3.target=void\ upsertTask(java.lang.String,\ Task)
+comment3.text=\n\ Upsert\ operation\:\ inserts\ new\ task\ or\ updates\ existing\ one\ by\ ID\n\ Atomic\ operation\ per\ user\ with\ timestamp\ update\n
+comment4.params=username
+comment4.target=java.time.Instant\ getLastUpdate(java.lang.String)
+comment5.params=
+comment5.target=java.util.Map\ snapshot()
+comment5.text=\n\ Creates\ deep\ copy\ snapshot\ for\ backup\ operations\n\ Expensive\ operation\ -\ use\ judiciously\n
+comment6.params=snap
+comment6.target=void\ restore(java.util.Map)
+comment6.text=Restores\ from\ backup\ snapshot\ -\ replaces\ entire\ schedule\ store
+numComments=7

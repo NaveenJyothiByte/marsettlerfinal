@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CommunicationsService
+comment1.params=fromUser\ toUser\ subject\ content\ isUrgent
+comment1.target=java.lang.String\ sendMessage(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ boolean)
+comment2.params=message
+comment2.target=void\ simulateTransmission(CommunicationsService.Message)
+comment3.params=username
+comment3.target=java.util.List\ getReceivedMessages(java.lang.String)
+comment4.params=messageId
+comment4.target=java.lang.String\ getMessageStatus(java.lang.String)
+comment5.params=fromUser\ subject\ content
+comment5.target=void\ emergencyBroadcast(java.lang.String,\ java.lang.String,\ java.lang.String)
+numComments=6
